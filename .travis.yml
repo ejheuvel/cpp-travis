@@ -1,11 +1,10 @@
 # Travis example for Modern C++ by Rafał Pocztarski
 # For more languages and info see:
 # https://github.com/rsp/travis-hello#readme
-
+dist: trusty
 sudo: false
 language: cpp
 compiler:
-  - gcc
   - clang
 addons:
   apt:
